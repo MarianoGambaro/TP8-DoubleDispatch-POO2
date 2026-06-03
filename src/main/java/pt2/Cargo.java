@@ -24,5 +24,5 @@ public abstract class Cargo {
 //        if (this.cargo instanceof Director) throw new RuntimeException(VALIDA_DIRECTOR);
 //        if (this.cargo instanceof MandoMedio) throw new RuntimeException(VALIDA_MANDOMEDIO);
 //    }
-//también cambie los metodos booleanos por void, ahora cada uno sabe si se puede agregar, si no, lanza exception
+//también cambie los metodos booleanos por void, ahora cada uno lanza su exception si no se peude agregar
 
